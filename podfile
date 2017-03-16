@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+#use_frameworks!
+project 'IM-环信.project'
+target 'IM-环信' do
+  pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
+  pod 'HyphenateLite'
+end
